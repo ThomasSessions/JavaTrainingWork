@@ -1,0 +1,22 @@
+public class Main {
+
+	static int firstNumber = 7;
+	static int secondNumber = 577777;
+	static boolean multiply = true;
+	static int loop = 0;
+	static int[] numberArray = { 4, 5, 26, 36, 64, 65, 76, 78, 98, 9 };
+
+	public static void main(String[] args) {
+		TaskTwo taskTwo = new TaskTwo();
+		taskTwo.completeTask(firstNumber, secondNumber, multiply, numberArray, loop);
+
+		Array arrayOne = new Array();
+		arrayOne.array();
+		
+		BlackJack blackJack = new BlackJack();
+		blackJack.overTwenty(firstNumber, secondNumber);
+		
+		
+
+	}
+}

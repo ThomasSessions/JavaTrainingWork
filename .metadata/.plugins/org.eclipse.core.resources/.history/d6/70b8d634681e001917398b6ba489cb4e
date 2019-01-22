@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class BinaryCalc {
+
+	public static void main(String[] args) {
+	    Scanner scan = new Scanner(System.in);
+	    System.out.println("Enter a binary number:");
+	    while (!scan.hasNextInt()) {
+	      System.out.println("Input is not a number.");
+	      scan.nextLine();
+	    }
+	    String number1 = scan.nextLine();
+	    
+        System.out.println(Integer.parseInt(number1, 2));
+	    
+	    
+	    
+	  }
+		
+}
+
+
+
+class BinaryToDecimal
+{
+       public static void main(String args[])
+       {
+           Scanner s=new Scanner(System.in);
+           
+           System.out.println("Enter a binary number:");
+
+           String n=s.nextLine();
+           
+           System.out.println(Integer.parseInt(n,2));
+       }
+}

@@ -1,0 +1,42 @@
+import java.util.Random;
+
+public class UniqueSum {
+	static Random rand = new Random();
+
+	public void noUniqueSum(int min, int max) {
+		int randomNum = (int) (Math.random() * ((max - min) + 1)) + min;
+		
+		int numOne = (int) (Math.random() * ((max - min) + 1)) + min;
+		int numTwo = (int) (Math.random() * ((max - min) + 1)) + min;
+		int numThree = (int) (Math.random() * ((max - min) + 1)) + min;
+		
+		if (numOne != numTwo && numOne != numThree && numTwo != numOne && numTwo != numThree && numThree != numOne && numThree != numTwo); 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

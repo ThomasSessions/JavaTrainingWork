@@ -1,0 +1,12 @@
+
+public class Main {
+	
+	int firstNumber = 10;
+	int secondNumber = 15;
+	
+	public static void main(String[] args) {
+
+
+	
+	}
+}

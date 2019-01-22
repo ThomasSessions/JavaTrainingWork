@@ -1,0 +1,9 @@
+
+public class Array {
+	
+	public void newArray() {
+		int[] array = new int[10];
+		newArray.fill(array, 0);
+	}
+
+}

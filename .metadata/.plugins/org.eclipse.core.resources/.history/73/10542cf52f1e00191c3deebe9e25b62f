@@ -1,0 +1,22 @@
+
+public class TaskTwo {
+
+	
+	public void completeTask(int firstNumber, int secondNumber) {
+		
+		int total = Calculations.add(firstNumber, secondNumber);
+		String outputMessage = "The sum of " + 
+		firstNumber + " and " + secondNumber 
+		+ " is " + total;
+		System.out.println(outputMessage);
+	
+	
+	
+		total = Calculations.multi(firstNumber, secondNumber);
+		String outputMessage1 = "The sum of " + 
+		firstNumber + " and " + secondNumber 
+		+ " is " + total;
+		System.out.println(outputMessage1);
+	}
+}
+

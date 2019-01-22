@@ -1,0 +1,8 @@
+
+public class Array {
+	
+	public void newArray() {
+		int[]myArray = newint[10]
+	}
+
+}

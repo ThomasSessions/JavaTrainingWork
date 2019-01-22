@@ -1,0 +1,12 @@
+
+public class Array {
+	
+	public void newArray() {
+		int[] arrayOne = new int[10];
+		
+		for (i = 0, i <10, i++)
+		arrayOne.fill(i, value);
+		
+	}
+
+}

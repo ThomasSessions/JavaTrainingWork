@@ -1,0 +1,16 @@
+
+public class TooHot {
+	public void isItTooHot(boolean isSummer, int temperature, boolean iAmTooHot) {
+		
+		if (temperature )
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
