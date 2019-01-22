@@ -1,0 +1,15 @@
+
+public class Calculator {
+	
+	public static int add(int[] array, int secondNumber) {
+		return array + secondNumber;
+	}
+
+	public int subtract(int firstNumber, int secondNumber) {
+		return firstNumber - secondNumber;
+	}
+	
+	public static int multiply(int[] array, int secondNumber) {
+		return array * secondNumber;
+	}
+}

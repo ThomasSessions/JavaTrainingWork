@@ -1,0 +1,13 @@
+
+public class Main {
+	
+	public static void main(String[] args) {
+		int firstNumber = 10;
+		int secondNumber = 10;
+		
+		Calculator.add(firstNumber, secondNumber);
+		
+		
+		
+	}
+}

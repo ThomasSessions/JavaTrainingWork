@@ -1,0 +1,31 @@
+
+public class secondTask {
+	
+	public static void main(String[] args) {
+		int[] array = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+		int secondNumber = 5;
+		boolean multiply = true;
+		
+		
+		if (firstNumber == 0) {
+			System.out.println(secondNumber);
+		} else if (secondNumber == 0) {
+			System.out.println(firstNumber);
+		} else if (multiply == true) {
+		
+		int total = Calculator.multiply(firstNumber, secondNumber);
+		String outputMessage = "The sum of " + 
+		firstNumber + " and " + secondNumber 
+		+ " is " + total;
+		System.out.println(outputMessage);
+		
+		} else {
+			
+		int total = Calculator.add(firstNumber, secondNumber);
+		String outputMessage = "The sum of " + 
+		firstNumber + " and " + secondNumber 
+		+ " is " + total;
+		System.out.println(outputMessage);	
+		}	
+	}
+}

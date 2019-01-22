@@ -1,0 +1,9 @@
+
+public class Tasks {
+
+	public static void main(String[] args) {
+	string a = "Hello ";
+	string b = "World!";
+		System.out.println(a+b);
+	}
+}

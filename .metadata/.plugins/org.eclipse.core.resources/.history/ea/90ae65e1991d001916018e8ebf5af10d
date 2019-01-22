@@ -1,0 +1,11 @@
+
+public class TaskTwo {
+
+	public static void main(String[] args) {
+		System.out.print(x+y);
+		
+	}
+	
+	static int x = 6;
+	static int y = 7;
+}

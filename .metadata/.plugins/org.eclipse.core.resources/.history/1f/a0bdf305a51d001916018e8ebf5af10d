@@ -1,0 +1,16 @@
+
+public class TaskTwo {
+
+	public static void main(String[] args) {
+		
+		int total = Calculator.add(firstNumber, secondNumber);
+		String outputMessage = "The sum of " + 
+		firstNumber + " and " + secondNumber 
+		+ " is " + total;
+		System.out.println(outputMessage);
+		
+	}
+	
+	int firstNumber = 6;
+	int firstNumber = 7;
+}

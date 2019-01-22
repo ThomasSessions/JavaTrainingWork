@@ -1,0 +1,12 @@
+
+public class TestEnvironment {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println(name);
+	
+	
+	}
+String name = "Thomas";
+}

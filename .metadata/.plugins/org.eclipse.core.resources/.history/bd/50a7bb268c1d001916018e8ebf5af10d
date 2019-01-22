@@ -1,0 +1,35 @@
+
+public class secondTask {
+	
+	public static void main(String[] args) {
+		int firstNumber = 5;
+		int secondNumber = 5;
+		boolean math = false;
+		}
+		
+		if (firstNumber == 0) || (secondNumber == 0) {
+		
+		
+		
+		
+		
+		else if (math == true) {
+		
+		int total = Calculator.add(firstNumber, secondNumber);
+		String outputMessage = "The sum of " + 
+		firstNumber + " and " + secondNumber 
+		+ " is " + total;
+		System.out.println(outputMessage);
+		
+		} else { 
+		
+		int total = Calculator.multiply(firstNumber, secondNumber);
+		String outputMessage = firstNumber + " multiplied by " 
+		+ secondNumber + " is " + total;
+		System.out.println(outputMessage);
+		
+	}
+	
+	
+}
+}
