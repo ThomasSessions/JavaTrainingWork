@@ -1,0 +1,12 @@
+package People;
+
+public class Main {
+
+	public static void main(String[] args) {
+			
+		Arraylist arrayList = new Arraylist();
+	
+	}
+	
+	
+}

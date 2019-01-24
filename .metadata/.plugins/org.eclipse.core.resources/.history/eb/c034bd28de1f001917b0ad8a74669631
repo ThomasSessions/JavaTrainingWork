@@ -1,0 +1,27 @@
+package JavaTest;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class TestJava {
+
+		@Test
+		public void shouldReturnHelloWorld() {
+			
+			Person thomas = new Person();
+			assertEquals("Hello World",thomas.helloWorld() );
+		}
+		
+		@Test
+		public void shouldReturnThomas() {
+			Person person = new Person();
+			assertEquals("Hello Thomas", person.hello("Thomas"));
+		}
+		
+		@Test
+		public void shouldReturnNumberOFPersons() {
+			Person person1 = new Person();
+			person person2 = new Person();
+			person myPerson = new Person();
+		}
+}

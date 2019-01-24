@@ -1,0 +1,11 @@
+package JavaTest;
+
+	public class TestJava {
+
+		@Test
+		public void shouldReturnHelloWorld() {
+			
+			Person marcus = new Person();
+			assertEquals("Hello World",marcus.HelloWorld() );
+		}
+}

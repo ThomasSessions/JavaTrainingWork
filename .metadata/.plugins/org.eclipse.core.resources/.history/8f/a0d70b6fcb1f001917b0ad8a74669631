@@ -1,0 +1,23 @@
+package People;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person personalInformationOne = new Person();
+		personalInformationOne.setName("Thomas Sessions");
+		personalInformationOne.setAge(22);
+		personalInformationOne.setjobTitle("Trainee");
+		
+		Person personalInformationTwo = new Person("William Thain", 21, "Full stack developer");
+		
+		System.out.println(personalInformationTwo);
+		
+		ArrayList<Person> personList = new ArrayList<Person>();
+		personList.add(personalInformationOne);
+		personList.add(personalInformationTwo);
+	}
+	
+	
+}

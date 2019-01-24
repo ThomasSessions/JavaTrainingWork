@@ -1,0 +1,14 @@
+package People;
+
+public class peep {
+		private String name;
+		private int age;
+		private String jobTitle;
+		public void peep() {
+			// TODO Auto-generated method stub
+			
+		}
+		
+		
+		
+	}

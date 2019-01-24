@@ -1,0 +1,37 @@
+package JavaTest;
+
+import java.util.jar.Attributes.Name;
+
+public class Person {
+
+ @SuppressWarnings("unused")
+private Name personName;
+private int personCounter = 0;
+
+// Instance variable
+
+	public Person(Name personName) {
+		this.personName = personName;
+	}
+	
+	public Person() {
+		personCounter++;
+		// Default constructor 
+	}
+
+	public String helloWorld() {
+		return "Hello World"; // Instance method
+	}
+
+	public String hello(String name) {
+		return "Hello " + name;
+		
+		
+		
+	}
+
+	public Object numberOfPersons() {
+		// TODO Auto-generated method stub
+		return personCounter;
+	}
+}

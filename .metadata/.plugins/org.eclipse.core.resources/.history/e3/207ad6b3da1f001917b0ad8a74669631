@@ -1,0 +1,15 @@
+package JavaTest;
+
+import java.util.jar.Attributes.Name;
+
+public class Person {
+	
+	private Name personName; //Instance variable
+	public Person(Name personName);
+
+	public String HelloWorld() {
+		return "Hello World"; // Instance method
+		
+	}
+
+}

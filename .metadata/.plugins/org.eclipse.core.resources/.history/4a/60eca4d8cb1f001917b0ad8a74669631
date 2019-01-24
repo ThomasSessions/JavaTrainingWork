@@ -1,0 +1,12 @@
+package People;
+
+import java.util.ArrayList;
+
+	public class Arraylist {
+		
+		public void addPerson (Person person) {
+			personList.add(person);
+		}
+	
+	ArrayList<Person> personList = new ArrayList<Person>();
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun TestJava (Failed Tests first)" project="Initial Project" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="JavaTest.TestJava" time="0.0">
+    <testcase name="shouldReturnNumberOFPersons" classname="JavaTest.TestJava" time="0.0"/>
+    <testcase name="shouldReturnThomas" classname="JavaTest.TestJava" time="0.0"/>
+    <testcase name="shouldReturnHelloWorld" classname="JavaTest.TestJava" time="0.0"/>
+  </testsuite>
+</testrun>

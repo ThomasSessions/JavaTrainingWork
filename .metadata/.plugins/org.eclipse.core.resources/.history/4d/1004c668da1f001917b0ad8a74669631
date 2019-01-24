@@ -1,0 +1,10 @@
+package JavaTest;
+
+public class Person {
+
+	public String HelloWorld() {
+		return "Hello World";
+		
+	}
+
+}

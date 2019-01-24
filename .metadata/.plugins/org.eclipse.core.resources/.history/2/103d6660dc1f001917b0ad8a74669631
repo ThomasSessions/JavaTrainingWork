@@ -1,0 +1,27 @@
+package JavaTest;
+
+import java.util.jar.Attributes.Name;
+
+public class Person {
+
+	private Name personName; // Instance variable
+
+	public Person(Name personName) {
+		this.personName = personName;
+	}
+	
+	public Person() {
+		// Default constructor 
+	}
+
+	public String HelloWorld() {
+		return "Hello World"; // Instance method
+
+	}
+	
+
+	public String hello(String name) {
+		return "Hello" + name;
+		
+	}
+}

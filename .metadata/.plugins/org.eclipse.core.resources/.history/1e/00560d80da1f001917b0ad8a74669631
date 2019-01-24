@@ -1,0 +1,12 @@
+package JavaTest;
+
+public class Person {
+	
+	private Name personName;
+
+	public String HelloWorld() {
+		return "Hello World";
+		
+	}
+
+}

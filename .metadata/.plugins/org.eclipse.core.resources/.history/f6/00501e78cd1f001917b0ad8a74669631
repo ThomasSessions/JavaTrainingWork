@@ -1,0 +1,15 @@
+package People;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person.person = new Person("Thomas", 22, "Trainee");
+		
+		PersonList personList = new PersonList();
+		personList.addPerson("Thomas", 22, "Trainee");
+		System.out.println(personList);
+	
+	}
+	
+	
+}

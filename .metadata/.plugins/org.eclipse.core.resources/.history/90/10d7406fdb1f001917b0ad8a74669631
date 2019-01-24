@@ -1,0 +1,17 @@
+package JavaTest;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class TestJava {
+
+		@Test
+		public void shouldReturnHelloWorld() {
+			
+			Person thomas = new Person();
+			assertEquals("Hello World",thomas.HelloWorld() );
+		}
+		
+		@test
+		public void shouldReturnThomas()
+}

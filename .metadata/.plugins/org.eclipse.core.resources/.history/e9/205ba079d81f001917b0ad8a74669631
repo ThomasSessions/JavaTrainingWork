@@ -1,0 +1,9 @@
+package JavaTest;
+
+public class Person {
+
+	public void HelloWorld() {
+		
+	}
+
+}

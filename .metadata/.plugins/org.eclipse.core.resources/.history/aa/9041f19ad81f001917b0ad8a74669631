@@ -1,0 +1,13 @@
+package JavaTest;
+
+import org.junit.Test;
+
+public class TestJava {
+
+		@Test
+		public void shouldReturnHelloWorld() {
+			
+			Person marcus = new Person();
+			assertEquals("Hello World",marcus.HelloWorld() );
+		}
+}

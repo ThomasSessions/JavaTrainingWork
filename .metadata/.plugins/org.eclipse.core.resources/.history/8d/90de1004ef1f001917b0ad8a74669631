@@ -1,0 +1,44 @@
+package JavaTest;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class TestJava {
+
+		@Test
+		public void shouldReturnHelloWorld() {
+			
+			Person thomas = new Person();
+			assertEquals("Hello World",thomas.helloWorld() );
+		}
+		
+		@Test
+		public void shouldReturnThomas() {
+			Person person = new Person();
+			assertEquals("Hello Thomas", person.hello("Thomas"));
+		}
+
+		@Test
+		public void shouldReturnNumberOFPersons() {
+			Person person1 = new Person();
+			Person person2 = new Person();
+			Person person3 = new Person();
+			Person person4 = new Person();
+			Person person5 = new Person();
+			
+			assertEquals(7, Person.numberOfPersons());
+		}
+		
+		public void usingBooleans() {
+			boolean monday = true;
+			boolean raining = true;
+			
+			if(monday && raining) {
+				drinkBeer();
+			}
+		}
+
+		private void drinkBeer() {
+			System.out.println("get me a pint");
+		} 
+}

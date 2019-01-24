@@ -1,0 +1,16 @@
+package People;
+
+public class Person {
+
+	public void peep() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void peep() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

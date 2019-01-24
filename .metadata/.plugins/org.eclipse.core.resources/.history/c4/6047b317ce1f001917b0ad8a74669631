@@ -1,0 +1,17 @@
+package People;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person personalInformationOne = new Person();
+		personalInformationOne.setName("Thomas Sessions");
+		personalInformationOne.setAge(22);
+		personalInformationOne.setjobTitle("Trainee");
+		
+		Person personalInformationTwo = new Person("William Thain", 21, "Full stack developer");
+			
+		PersonList personList = new PersonList();
+	}
+	
+	
+}
