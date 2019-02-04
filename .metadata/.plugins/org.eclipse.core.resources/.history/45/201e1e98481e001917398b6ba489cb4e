@@ -1,9 +1,0 @@
-public class BlackJack {
-	
-	public void overTwenty(int firstNumber, int secondNumber) {
-		
-		if ( firstNumber ==21 || secondNumber == 21) {
-			System.out.println(21);
-		}
-	}
-}

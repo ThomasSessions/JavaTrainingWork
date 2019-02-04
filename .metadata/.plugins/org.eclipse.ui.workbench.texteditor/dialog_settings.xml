@@ -2,25 +2,51 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="blackJackTwo" key="selection"/>
+		<item value="result" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="secondNumber"/>
-			<item value="firstNumber"/>
+			<item value="n"/>
+			<item value="c="/>
+			<item value="c"/>
+			<item value="s2"/>
+			<item value="s1"/>
+			<item value="s5"/>
+			<item value="s4"/>
+			<item value="s3"/>
+			<item value="tf11"/>
+			<item value="tf"/>
+			<item value="P2"/>
+			<item value="p2"/>
+			<item value="work"/>
+			<item value="message"/>
+			<item value="Switch(A)"/>
 		</list>
 		<list key="replacehistory">
-			<item value="blackJackTwo"/>
-			<item value="blackJackOne"/>
+			<item value="result"/>
+			<item value="operators="/>
+			<item value="symbol"/>
+			<item value="intArrayTwo"/>
+			<item value="intArrayOne"/>
+			<item value="first"/>
+			<item value="newTotalValue"/>
+			<item value="buttonValue"/>
+			<item value="currentNumber"/>
+			<item value="tf1"/>
+			<item value="p2"/>
+			<item value="P2"/>
+			<item value="word"/>
+			<item value="work"/>
+			<item value=" "/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="284" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="391" key="DIALOG_HEIGHT"/>
-		<item value="826" key="DIALOG_X_ORIGIN"/>
-		<item value="268" key="DIALOG_Y_ORIGIN"/>
+		<item value="1310" key="DIALOG_X_ORIGIN"/>
+		<item value="347" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
